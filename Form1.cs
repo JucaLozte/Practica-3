@@ -1,0 +1,35 @@
+namespace Práctica_3
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int num1, num2, sum;
+            num1 = Int32.Parse(textBox1.Text);
+            num2 = Int32.Parse(textBox2.Text);
+            sum = num1 + num2;
+
+            label3.Text = "Sum = " + sum;
+        }
+    }
+}
